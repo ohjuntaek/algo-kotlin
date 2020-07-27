@@ -3,10 +3,10 @@ package programmers
 import java.util.*
 
 fun main() {
-    println(Arrays.toString(Solution().solution(intArrayOf(99,99,99,99,99), intArrayOf(3,3,3,3,3))))
+    println(Arrays.toString(Solution2().solution(intArrayOf(99,99,99,99,99), intArrayOf(3,3,3,3,3))))
 }
 
-class Solution {
+class Solution2 {
     fun solution(progresses: IntArray, speeds: IntArray): IntArray {
         val answer = mutableListOf<Int>()
 
